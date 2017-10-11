@@ -6,9 +6,23 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
-			]
+				"spring_2.jpg",
+				"spring_3.jpg",
+				"spring_4.jpg",
+				"spring_5.jpg",
+				"spring_6.jpg"
+			],
+
+			imageDescription : [
+			'These are some butterflies',
+			'these are some giant mutant chickens',
+			'look at these pretty weeds',
+			'the last of its kind still grasping for life',
+			'cherry blossom trees make your neighbors hate you',
+			'white blossoms from the cottage'
+		]
 		},
+
 
 		summer : {
 			text : "Summer is the warmest of the four temperate seasons, falling between spring and autumn. At the summer solstice, the days are longest and the nights are shortest, with day-length decreasing as the season progresses after the solstice. The date of the beginning of summer varies according to climate, tradition and culture, but when it is summer in the Northern Hemisphere it is winter in the Southern Hemisphere, and vice versa.",
@@ -17,8 +31,21 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
-			]
+				"summer_2.jpg",
+				"summer_3.jpg",
+				"summer_4.jpg",
+				"summer_5.jpg",
+				"summer_6.jpg"
+			],
+
+			imageDescription : [
+			'rainbow adirondak chairs by the beach',
+			'sleeping puppy on a hammock',
+			'Jumping off a dock hopefully theres no sharks',
+			'sunset on the lake',
+			'party at the beach dont break your beer',
+			'plastic flamingos with glasses'
+		]
 		},
 
 		autumn : {
@@ -28,8 +55,21 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
-			]
+				"autumn_2.jpg",
+				"autumn_3.jpg",
+				"autumn_4.jpg",
+				"autumn_5.jpg",
+				"autumn_6.jpg"
+			],
+
+			imageDescription : [
+			'beautiful fall walk',
+			'wheres my pumpkin spice latte',
+			'adirondak chairs beneath a dead tree',
+			'dead trees by the lake',
+			'the beyonce of jack o lanterns',
+			'trick or treat, smell my feet'
+		]
 		},
 
 		winter : {
@@ -39,7 +79,19 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
-			]
+				"winter_2.jpg",
+				"winter_3.jpg",
+				"winter_4.jpg",
+				"winter_5.jpg",
+				"winter_6.jpg"
+			],
+			imageDescription : [
+			'pretty blue snow scene',
+			'your aunt mildreds snowman christmas card',
+			'more snow in front of trees',
+			'christmas morning view from mercury',
+			'everyone is getting coal for christmas',
+			'mommy put baileys instead of milk'
+		]
 		}
 	};

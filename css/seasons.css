@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-body { background: #000; color: #FFF; font-size: 16px; }
+body { background: #171d23; color: #FFF; font-size: 16px; }
 
 h1, h2 { font-family: 'Mystery Quest', cursive; }
 
-section, article, .subImagesContainer { position: relative; width: 635px; margin: 0 auto; border: 0; }
+section, article, .subImagesContainer { position: relative; width: 635px; margin: 0 auto; border: 0; border-radius: 20px 20px 0px 0px;}
 
 .heading { text-align: center; margin-top: 15px; font-size: 2em; }
 
@@ -18,13 +18,23 @@ section, article, .subImagesContainer { position: relative; width: 635px; margin
 	padding: 0;
 	cursor: pointer;
 	transition: opacity 0.3s ease;
+   border-radius: 20px 20px 0px 0px;
+}
+.close-lightbox{
+	float: right;
+	margin-right: 18px;
+	margin-top: 12px;
+	font-size: 2em;
+	cursor: pointer;
 }
 
 .image-holder:hover {
 	opacity: 0.3;
 }
 
-section { margin-top: 15px; background-color: #FFF; }
+section {
+	margin-top: 15px;
+	background-color: #FFF; }
 
 #summer { background-position: -146px 0; }
 #autumn { background-position: -293px 0; }
@@ -41,7 +51,7 @@ section { margin-top: 15px; background-color: #FFF; }
 	text-align: left;
 	padding-left: 20px;
 	padding-top: 20px;
-	margin: 0; b
+	margin: 0;
 	order:0px;
 }
 
@@ -51,8 +61,41 @@ section { margin-top: 15px; background-color: #FFF; }
 	font-size: 0.8em;
 	line-height: 1.5em;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
-.subImagesContainer { padding: 0; }
+.subImagesContainer { padding: 0; margin: 0 auto; }
+
+.thumb{ height: 90px; margin: 8px; cursor: pointer;}
+
+
+
+.lightbox{
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*height: 90%;*/
+	background-color: rgba(23, 22, 22, 1);
+	z-index: 5000;
+}
+.background
+{
+    border-radius: 0px 0px 20px 20px;
+}
+.lightbox-img
+{	display: block;
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 5%;
+}
+.lightbox-desc
+{text-align: center;
+/*color: rgba(220, 219, 219, 1);*/
+font-family: 'Mystery Quest', cursive;
+font-size: 20px;
+}
+
 
 .thumb { height: 90px; margin: 8px; cursor: pointer; }
